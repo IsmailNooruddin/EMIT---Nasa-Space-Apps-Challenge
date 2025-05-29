@@ -1,0 +1,511 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Kulim Park", sans-serif;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/*-------------HEADER-----------*/
+.upperspace
+{
+    width: 100%;
+    height: 400px;
+    background-image: url(download.jpg);
+    background-size: cover;
+    border-bottom: #E04D01 2px solid;
+}
+.logo
+{
+    width: 90%;
+    height: 160px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 50px;
+}
+.logo .left 
+{
+    height: 100%;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E04D01;
+    font-size: x-large;
+}
+.logo .left img
+{
+    height: 80px;
+    width: 100px;
+    cursor: pointer;
+}
+.logo .right
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E04D01;
+    font-size: x-large;
+    gap: 10px;
+    margin-left: 20%;
+}
+.logo .right h1
+{
+    font-size: 60px;
+}
+.links
+{
+    width: 100%;
+    height: 90px;
+    background-color: rgba(128, 128, 128, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links ul
+{
+    display: flex;
+    gap: 80px;
+    font-size: 25px;
+    font-weight: 590;
+}
+.links ul li a
+{
+    text-decoration: none;
+    color: #E04D01;
+    transition: 0.25s ease;
+}
+.links ul li
+{
+    list-style-type: none;
+}
+.links ul li a:hover
+{
+    color: #000;
+}
+
+
+
+
+/*-------------FOOTER-----------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+    border-top: #E04D01 2px solid;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+
+
+/*-------------MAIN-----------*/
+main
+{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+main .heading
+{
+    color: #E04D01;
+    padding: 40px 50px;
+}
+main .first
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .first .west
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .first .west img
+{
+    width: 85%;
+    height: 85%;
+    border-radius: 10px;
+}
+main .first .east
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+main .first .east h1
+{
+    color: #E04D01;
+    cursor: pointer;
+}
+main .first .east p
+{
+    font-size: larger;
+    font-weight: 600;
+}
+main .first .east a
+{
+    text-decoration: none;
+    background-color: #E04D01;
+    color: black;
+    padding: 10px 50px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: larger;
+    transition: 0.25s ease;
+}
+main .first .east a:hover
+{
+    background-color: black;
+    color: #E04D01;
+}
+
+
+
+
+
+main .second
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+    padding-left: 50px;
+}
+
+main .second .west
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+main .second .east
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .second .east img
+{
+    width: 85%;
+    height: 85%;
+    border-radius: 10px;
+}
+main .second .west h1
+{
+    color: #E04D01;
+    cursor: pointer;
+}
+main .second .west p
+{
+    font-size: larger;
+    font-weight: 600;
+}
+main .second .west a
+{
+    text-decoration: none;
+    background-color: #E04D01;
+    color: black;
+    padding: 10px 50px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: larger;
+    transition: 0.25s ease;
+}
+main .second .west a:hover
+{
+    background-color: black;
+    color: #E04D01;
+}
+
+
+
+
+
+main .third
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+}
+main .third .west
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .third .west img
+{
+    width: 65%;
+    height: 90%;
+    border-radius: 10px;
+}
+main .third .east
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+main .third .east h1
+{
+    color: #E04D01;
+    cursor: pointer;
+}
+main .third .east p
+{
+    font-size: larger;
+    font-weight: 600;
+}
+main .third .east a
+{
+    text-decoration: none;
+    background-color: #E04D01;
+    color: black;
+    padding: 10px 50px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: larger;
+    transition: 0.25s ease;
+}
+main .third .east a:hover
+{
+    background-color: black;
+    color: #E04D01;
+}
+
+
+
+main .fourth
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+    padding-left: 50px;
+}
+
+main .fourth .west
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+main .fourth .east
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .fourth .east img
+{
+    width: 85%;
+    height: 85%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+main .fourth .west h1
+{
+    color: #E04D01;
+}
+main .fourth .west p
+{
+    font-size: larger;
+    font-weight: 600;
+}
+main .fourth .west a
+{
+    text-decoration: none;
+    background-color: #E04D01;
+    color: black;
+    padding: 10px 50px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: larger;
+    transition: 0.25s ease;
+}
+main .fourth .west a:hover
+{
+    background-color: black;
+    color: #E04D01;
+}
+
+/*------FONT CHANGE-------*/
+p
+{
+    font-family: "Libre Caslon Text", sans-serif;
+}
+
+
+
+
+/*-------GAME-------*/
+main .fifth
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+    padding-left: 50px;
+}
+main .fifth .west
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .fifth .east
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+main .fifth .east h1
+{
+    color: #E04D01;
+    cursor: pointer;
+}
+main .fifth .east p
+{
+    font-size: x-large;
+    font-weight: 600;
+    color: #E04D01;
+    font-family: "Kulim Park", sans-serif;
+}
+main .fifth .east ul li
+{
+    font-family: "Libre Caslon Text", sans-serif;
+    font-weight: 600;
+    list-style-type: circle;
+}

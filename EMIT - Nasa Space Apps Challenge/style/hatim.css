@@ -1,0 +1,140 @@
+.heading{
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+.imag{
+    height: 50%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px;
+    padding-bottom: 30px;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0);
+    transition: 0.3s ease-in-out;
+}
+
+#spectro:hover{
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+
+main p,main ul{
+    font-family:"Libre Caslon Text", serif;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 30px;
+}
+
+main b, main li{
+    font-family:"Libre Caslon Text", serif;
+}
+
+main ul{
+    padding-left: 95px;
+    list-style-type: circle;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#spec{
+    height: 450px;
+}
+
+.caption{
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 12px;
+    padding-top: 0px;
+    position: relative;
+    opacity: 1;
+}
+
+main h2, main h3, main h4{
+    color: #E04D01;
+}
+
+.card{
+    border: 3px solid #E04D01;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigdiv{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cwis, #swis{
+    height: 300px;
+    width: 500px;
+    padding-top: 18px;
+}
+
+.eh{
+    opacity: 0;
+    width: 10px;
+}
+
+#spectrometer{
+    height: 450px;
+    width: 500px;
+}
+
+.mid{
+    padding-left:70px;
+}
+
+.innerlist{
+    list-style: disc;
+    padding-left: 50px;
+}
+
+.invisible{
+    opacity:0;
+}
+
+#spec:hover{
+    .caption{
+        opacity: 1;
+    }
+}
+
+.striped{
+    width: 50%;
+    line-height: 50px;
+    padding-left: 10px; 
+    padding-top: 20px;
+}
+
+.striped tr{
+    background-color: #ef6e2ec5;
+    color: black;
+}
+
+.striped td{
+    padding-left: 10px; 
+}
+
+.striped tr:nth-child(even) {
+    background-color: #ffffff;
+    color: #E04D01;
+}
+
+.table{
+    font-family:"Libre Caslon Text", serif;
+    padding-left: 90px;
+}
+

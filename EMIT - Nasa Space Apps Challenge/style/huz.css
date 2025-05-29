@@ -1,0 +1,140 @@
+.heading{
+    padding-left: 60px;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.abt-heading{
+    padding-left: 60px;
+    padding-top: 15px;
+    font-family: sans-serif;
+    color: #E04D01;
+
+}
+.img1{
+    height: fit-content;
+    width: fit-content;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-bottom: fit-content;
+
+}
+.para1{
+    height: 350px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-size: 19px;
+    
+
+}
+.div1{
+ 
+    display: flex;
+    padding-bottom: 30px;
+}
+
+p{
+    font-family:"Libre Caslon Text", serif;
+}
+.img2{
+    padding-left: 60px;
+    width: 90%;
+    padding-left: 190px;
+
+}
+.para2{
+   padding-left: 60px;
+    width: 95%;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 19px;
+}
+.para3{
+    padding-left: 60px;
+     width: 95%;
+     text-align: center;
+     padding-top: 1px;
+     font-size: 19px; 
+     
+ }
+ .img4{
+    padding-top: 40px;
+    padding-left: 60px;
+    height: 500px;
+    width: 60%;
+    
+ }
+ 
+
+ .para4{
+    padding-left: 80px;
+    width: 900px;
+    font-size: small;
+    text-align: center;
+    
+ }
+
+ .div4{
+width: fit-content;
+padding-bottom: 100px;
+
+ }
+ .img3{
+height: 800px;
+width: 35%;
+margin-left: 1000px;
+margin-top: -505px;
+/* margin-right: 200px; */
+padding-right: 50px;
+ }
+ .para3{
+    margin-left: 1000px;
+    text-align: center;
+   font-size: small;
+   width: 400px;
+   padding-bottom: 200px;
+ }
+ .para5{
+    font-size: 19px;
+    width: 950px;
+    padding-left: 80px;
+    margin-top: -550px;
+    
+
+ }
+ .img7{
+  height: 500px;
+  width: 55%;
+  padding-top: 20px;
+  padding-left: 60px;
+ }
+.para6{
+   
+    height: 400px;
+    width: 40%;
+    margin-left: 900px;
+    margin-top:-470px ;
+    font-size: 20px;
+}
+.img5{
+    height: 650px;
+    width: 75%;
+    margin-top: 100px;
+    padding-left: 60px;
+    margin-left: 160px;
+}
+.para7{
+    padding-left: 100px;
+    width:92%;
+    font-size: small;
+    text-align: center;
+}
+.para8{
+    width: 90%;
+    height: 500pxz;
+    padding-left:150px ;
+    font-size:20px ;
+    margin-top: 50px;
+    text-align: center;
+}

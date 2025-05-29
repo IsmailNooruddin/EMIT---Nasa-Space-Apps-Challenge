@@ -1,0 +1,129 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Kulim Park", sans-serif;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+
+
+/*-------------MAIN-----------*/
+main
+{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+main h1
+{
+    color: #E04D01;
+    padding: 40px 50px;
+}
+
+/*-------TABLE DESIGN-------*/
+.striped
+{
+    width: 80%;
+    line-height: 50px;
+    padding-left: 10px; 
+    padding-top: 20px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.striped tr
+{
+    background-color: #E04D01;
+    color: black;
+    border: 2px solid black;
+}
+
+.striped td
+{
+    padding-left: 10px; 
+}
+
+.striped tr:nth-child(even) 
+{
+    background-color: #ffffff;
+    color: #E04D01;
+}
+
+.table
+{
+    padding-left: 90px;
+}
+.libre
+{
+    font-family:"Libre Caslon Text", serif;
+}
+
+
+
+/*------IMAGES-------*/
+.data
+{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.data img
+{
+    width: 70%;
+    height: 450px;
+}
+.data p
+{
+    font-family:"Libre Caslon Text", serif;
+    color: gray;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+
+
+.bigdata
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+.bigdata img
+{
+    width: 45%;
+    height: 650px;
+}
+.bigdata p
+{
+    font-family:"Libre Caslon Text", serif;
+    color: gray;
+    margin-top: 25px;
+}
